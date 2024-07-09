@@ -5,8 +5,9 @@ import com.neuronrobotics.sdk.addons.kinematics.math.TransformNR
 
 MobileBase cat =ScriptingEngine.gitScriptRun(	"https://github.com/OperationSmallKat/SmallKat_V2.git", 
 								"loadRobot.groovy", 
-["https://github.com/OperationSmallKat/SmallKat_V2.git",
+["https://github.com/pakchoi47/SmallKat_V2.git",
 		"Bowler/MediumKat.xml"]);
+
 def gameController
 try{
   gameController = ScriptingEngine.gitScriptRun(
